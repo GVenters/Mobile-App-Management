@@ -1,0 +1,47 @@
+Support for Multiple Mobile Platforms
+Apple iOS, Android (pwa)
+
+Browser and Native App Support
+An enterprise app store should allow the apps to 
+be downloaded on the device from the browser via a
+URL or through an enterprise market app 
+-- similar to the Google Play Store or iTunes App store.
+
+Secure
+Integrate the app store with the enterprise
+single sign-on or identity management system
+and MDM (Mobile Device Management) solution 
+if available. App downloads should be on 
+a secure SSL (HTTPS) or secure VPN tunnel.
+Your app store should NOT allow downloads via an 
+unsecured network connection.
+
+Access Control
+Only users that are authorized should be able to download 
+and install an app. Authorization can work off of a
+server side ACL
+(access control list) that is driven by user, role and 
+designation and group authorizations.
+For example, an employee working in buildings and
+facility management should not be allowed to download
+a mobile app that is intended for sales operations.
+
+Push Notifications
+Administrators should be able to send notifications
+using the push capability of the supported mobile platforms.
+The notifications alert the user about available updates for apps installed on the device.
+
+Over the Air Updates
+Both Android and iOS (5.x) now support OTA (over the air updates) for updating existing apps, installing patches and other maintenance related fixes. An enterprise app store should include a feature to push the updates to the device and notify users through the notification system on the device.
+
+Device Registration and Management
+An enterprise app store should include the database of users, devices and apps. This can also be done by using MDM software and integrating it with the app store. In an enterprise, a user may have multiple mobile devices. Similarly, devices may be shared with different users, each having a different account and profile on the device.
+
+Administrative Console, Centralized Management and Control
+An easy-to-use, Web-based administrative console is an essential feature that allows administrators to approve new apps or updates to existing ones. It also allows them to retire, archive and remove apps when necessary.
+
+gIdentifying Malicious Code
+Malicious software including Trojan apps are a big problem in public app stores, and an enterprise app store could also be susceptible to such attacks from an internal party like a disgruntled employee, or from the packaging of third-party software and services bundled with in-house enterprise apps. The app store should provide ways to identify, prevent and take down apps that do not adhere to the organization's code of conduct.
+
+Publishing Process
+Support for submission, approval and withdrawal of apps aligned to policy
